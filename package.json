@@ -1,0 +1,28 @@
+{
+  "name": "angular-global-alerts",
+  "version": "0.0.1",
+  "description": "Basic gobal alerts system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulstefanday/angular-global-alerts.git"
+  },
+  "keywords": [
+    "Angular",
+    "Alert"
+  ],
+  "author": "Paul Day <paul@paulday.com.au> (http://paulday.com.au)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulstefanday/angular-global-alerts/issues"
+  },
+  "homepage": "https://github.com/paulstefanday/angular-global-alerts",
+  "dependencies": {
+    "angular": "^1.3.16",
+    "angular-animate": "^1.3.16",
+    "angular-flash-alert": "^1.1.0"
+  }
+}
