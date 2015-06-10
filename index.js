@@ -22,5 +22,4 @@ angular.module(moduleName, ['flash', 'ngAnimate'])
 
     }]);
 
-
 export default moduleName;
