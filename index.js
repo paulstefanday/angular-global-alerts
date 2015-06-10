@@ -1,7 +1,7 @@
 import angular from 'angular';
 import flash from 'angular-flash-alert';
 import ngAnimate from 'angular-animate';
-import './errors.less';
+import './styles.less';
  
 var moduleName = 'ErrorCatcher';
  
