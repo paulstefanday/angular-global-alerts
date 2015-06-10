@@ -1,6 +1,6 @@
 {
   "name": "angular-global-alerts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic gobal alerts system",
   "main": "index.js",
   "scripts": {
