@@ -6,6 +6,11 @@ Any http errors create an alert in the top right corner. Default message is 'An 
 
 # Usage
 
+Install:
+```
+npm install angular-global-alerts --save
+```
+
 Angular code:
 ```
 angular.module('app', [ require('angular-global-alerts') ])
