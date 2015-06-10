@@ -1,8 +1,22 @@
 # angular-global-alerts
-A global alert system for angular apps
+A global alert system for angular apps using webpack. Import using webpack with babel and less loaders installed. package.json example included in example folder.
 
 # Description
 Any http errors create an alert in the top right corner. Default message is 'An error has occured.' or if the http request returned data, format json as { message: 'error message here.' }.
+
+# Usage
+
+Angular code:
+```
+angular.module('app', [ require('angular-global-alerts') ])
+```
+
+HTML code:
+```
+<div flash-message="5000" ></div>  
+```
+
+Then do an $http call that fails and see an alert appear.
 
 # Example
 1. cd example
