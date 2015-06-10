@@ -16,7 +16,7 @@ Angular code:
 angular.module('app', [ require('angular-global-alerts') ])
 ```
 
-HTML code:
+HTML code anywhere inside app:
 ```
 <div flash-message="5000" ></div>  
 ```
