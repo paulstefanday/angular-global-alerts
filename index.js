@@ -1,7 +1,7 @@
-import angular from 'angular';
-import flash from 'angular-flash-alert';
-import ngAnimate from 'angular-animate';
-import './styles.less';
+var angular = require('angular');
+require('angular-flash-alert');
+require('angular-animate');
+require('./styles.less');
  
 var moduleName = 'ErrorCatcher';
  
