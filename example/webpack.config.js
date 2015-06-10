@@ -10,13 +10,13 @@ module.exports = {
   ],
 
   resolve: {
-    modulesDirectories: [ "node_modules", "bower_components", "app"]
+    modulesDirectories: ["node_modules"]
   },
 
   module: {
     loaders: [
-      {test: /\.js$/, loader: 'babel', exclude: /node_modules/},
-      {test: /\.css$/, loader: 'style!css', exclude: /node_modules/} 
+      {test: /\.js$/, loader: 'babel'},
+      {test: /\.less$/, loader: 'style!css!less'} 
     ]
   }
 };

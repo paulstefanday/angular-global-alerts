@@ -10,7 +10,7 @@ angular.module(moduleName, ['flash', 'ngAnimate'])
         return {
             responseError: function responseError(rejection) {
 
-                Flash.create('danger', rejection.data.message, 'customAlert');
+                Flash.create('danger', rejection.data.message ? rejection.data.message : 'An error has occured.', 'customAlert');
 
                 return $q.reject(rejection);
             }
