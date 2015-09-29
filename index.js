@@ -7,6 +7,7 @@ var moduleName = 'angular-global-alerts';
 
 module.exports = function(style, redirect) {
 
+
     angular.module(moduleName, ['flash', 'ngAnimate'])
         .factory('errorHttpInterceptor', ['$q', "Flash", "$location", function ($q, Flash, $location) {
             return {
